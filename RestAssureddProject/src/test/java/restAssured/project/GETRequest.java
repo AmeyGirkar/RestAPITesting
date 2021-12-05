@@ -33,6 +33,6 @@ public class GETRequest extends TestBase {
 		logger.info("Response Code Verified");
 		
 		//System.out.println(RestAssured.given().get().body().asString());
-		RestAssured.given().log().all();
+		//RestAssured.given().log().all();
 	}
 }
